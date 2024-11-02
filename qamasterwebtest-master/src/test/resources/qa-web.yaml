@@ -1,0 +1,16 @@
+hubUrl: http://localhost:4444/wd/hub
+browserType: Chrome
+remoteType: Chrome
+headless: false
+headlessWindowSize: 1920,1200
+pageTimeOut: 100
+scriptTimeOut: 30
+pollingTime: 250
+explicitTimeOut: 70
+implicitlyTimeOut: 70
+testUrl: https://uat.qamaster.co/
+waitPageLoad: true
+waitAjax: true
+waitAngular: false
+disableQuitDriver: false
+disableTimeoutException: false

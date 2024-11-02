@@ -1,0 +1,45 @@
+
+# Email alanına <text> yazılır.
+* "loginPage_emailInput" li elemente <text> değerini yaz
+
+# Continue butonuna tıklanır.
+* "loginPage_continueBtn" li elemente tıkla
+
+# Password alanına <text> yazılır.
+* "loginPage_passwordInput" li elemente <text> değerini yaz
+
+# Login olunduğu görülür.
+* "homePage_projectListTxt" li element var mı?
+
+# Login url'i kontrol edilir.
+* Sayfanın url i "https://uat.qamaster.co/login" mı?
+
+# Password Input Box'ının geldiği doğrulanır.
+* "loginPage_passwordInput" li element var mı?
+
+# Ana sayfa url'i kontrol edilir.
+* Sayfanın url i "https://uat.qamaster.co/QA" mı?
+
+# Password Visibility butonuna tıklanır.
+* "homePage_passwordVisibilityBtn" li elemente tıkla
+* "1" sn bekle
+
+# Geri butonuna tıklanır.
+* Bulunduğun sayfada geri git
+* "2" sn bekle
+
+# İleri butonuna tıklanır.
+* Bulunduğun sayfada ileri git
+* "2" sn bekle
+
+# Login olunur.
+* Login url'i kontrol edilir.
+* Email alanına "Data_email" yazılır.
+* Continue butonuna tıklanır.
+* Password Input Box'ının geldiği doğrulanır.
+* Password alanına "Data_password" yazılır.
+* Continue butonuna tıklanır.
+//* Ana sayfa url'i kontrol edilir.
+
+# Incorrect username or password ifadesi kontrol edilir.
+* "loginPage_incorrectWarningTxt" li element var mı?

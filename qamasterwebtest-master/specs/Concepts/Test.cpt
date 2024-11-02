@@ -1,0 +1,111 @@
+
+# Ana sayfadaki add butonuna tıklanır.
+* "homePage_NavbarAddBtn" li elementin üzerine gel
+* "1" sn bekle
+
+# Ana sayfadaki New Test Suite butonuna tıklanır.
+* "homePage_NewTestSuiteBtn" li elemente tıkla
+
+# New Test Suite popup'ı kontrol edilir.
+* "newTest_SelectProjectInput" li element var mı?
+* "newTest_SelectSpecInput" li element var mı?
+* "newTest_SelectTagInput" li element var mı?
+* "newTest_SelectBtn" li element var mı?
+
+# New Test ekranı açılır.
+* "homePage_NavbarAddBtn" li elementin üzerine gel
+* "homePage_NewTestSuiteBtn" li elemente tıkla
+
+# New Test ekranında <text> isimli proje seçilir.
+* "newTest_SelectProjectInput" li elementi temizle
+* "newTest_SelectProjectInput" li elemente <text> değerini yaz
+* "newTest_SelectProjectInput" entere tıkla
+
+# New Test ekranında <text> isimli spec seçilir.
+* "newTest_SelectSpecInput" li elementi temizle
+* "newTest_SelectSpecInput" li elemente <text> değerini yaz
+* "newTest_SelectSpecInput" entere tıkla
+
+# New Test ekranında <text> isimli tag seçilir.
+* "newTest_SelectTagInput" li elementi temizle
+* "newTest_SelectTagInput" li elemente <text> değerini yaz
+* "newTest_SelectTagInput" entere tıkla
+
+# New Test ekranında <text> isimli senaryo seçilir.
+* New Test ekranında ismi <text> olan senaryoyu seç.
+
+# New Test ekranındaki Configuration butonuna basılır.
+* "newTest_ConfigurationBtn" li elemente tıkla
+
+# New Test ekranında yeni teste <text> ismi verilir.
+* "newTest_TestSuiteNameInput" li elementi temizle
+* "newTest_TestSuiteNameInput" li elemente <text> değerini yaz
+
+# New Test ekranında Local/Remote switch'e basılır.
+* "newTest_LocalRemoteSwitch" li elemente tıkla
+
+# New Test ekranında <text> browser type seçilir.
+* "newTest_BrowserTypeInput" li elementi temizle
+* "newTest_BrowserTypeInput" li elemente <text> değerini yaz
+* "newTest_BrowserTypeInput" entere tıkla
+
+# New Test ekranında Scheduling switch'ine tıklanır ve <text> seçilir.
+* "newTest_SchedulingSwitch" li element var mı?
+* "newTest_SchedulingSwitch" li elemente tıkla
+* "newTest_ScheduleChoiceDropdown" li elemente tıkla
+* New Test ekranında Scheduling için <text> seç.
+
+# New Test ekranındaki Select butonuna tıklanır.
+* "newTest_SelectBtn" li elemente tıkla
+
+# New Test ekranındaki Cancel butonuna tıklanır.
+* "newTest_CancelBtn" li elemente tıkla
+
+# New Test ekranındaki Save butonuna tıklanır.
+* "newTest_SaveBtn" li elemente tıkla
+* "2" sn bekle
+
+# New Test ekranındaki Run Test butonuna tıklanır.
+* "newTest_RunTestBtn" li elemente tıkla
+
+# Test Senaryolarının görüldüğü kontrol edilir.
+* "newTest_TestScenarios" li element var mı?
+
+# Title'ı <text> olan testin olduğu kontrol edilir.
+* Title'ı <text> olan test var mı?
+
+# Title'ı <text> olan teste tıklanır.
+* Title'ı <text> olan teste tıkla
+
+# Title'ı <text> olan testin seçenekler butonuna tıklanır.
+* Title'ı <text> olan testin seçenekler butonuna tıkla
+
+# Title'ı <text> olan test silinir.
+* Title'ı <text> olan testin seçenekler butonuna tıkla
+* "testSuite_DeleteTestBtn" li elemente tıkla
+* "testSuite_ConfirmDeleteTestBtn" li elemente tıkla
+* "3" sn bekle
+
+# <text> adlı testin detayları yeniden açılır.
+* Title'ı <text> olan teste tıkla
+* "1" sn bekle
+* Title'ı <text> olan teste tıkla
+* "1" sn bekle
+
+# Success olan testin status kısmının ve test barının yeşil olduğu kontrol edilir.
+* "testSuite_StatusBox" li element var mı?
+* "testSuite_StatusBox" li elementin "style" attribute'ı "rgb(62, 200, 148)" içeriyor mu?
+* "testSuite_MostRecentRunBox" li element var mı?
+* "testSuite_MostRecentRunBox" li elementin "style" attribute'ı "rgb(62, 200, 148)" içeriyor mu?
+
+# Fail olan testin status kısmının ve test barının kırmızı olduğu kontrol edilir.
+* "testSuite_StatusBox" li element var mı?
+* "testSuite_StatusBox" li elementin "style" attribute'ı "rgb(255, 101, 105)" içeriyor mu?
+* "testSuite_MostRecentRunBox" li element var mı?
+* "testSuite_MostRecentRunBox" li elementin "style" attribute'ı "rgb(255, 101, 105)" içeriyor mu?
+
+# Error olan testin status kısmının ve test barının kırmızı olduğu kontrol edilir.
+* "testSuite_StatusBox" li element var mı?
+* "testSuite_StatusBox" li elementin "style" attribute'ı "rgb(202, 0, 0)" içeriyor mu?
+* "testSuite_MostRecentRunBox" li element var mı?
+* "testSuite_MostRecentRunBox" li elementin "style" attribute'ı "rgb(202, 0, 0)" içeriyor mu?

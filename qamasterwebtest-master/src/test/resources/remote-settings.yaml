@@ -1,0 +1,49 @@
+---
+platforms:
+  - type: browserstack
+    use: true
+    options:
+      os: Windows
+      osVersion: 11
+      projectName: Test
+      buildName: Test
+      sessionName: Test
+      local: false
+      video: true
+      debug: true
+      consoleLogs: info
+      networkLogs: true
+      seleniumVersion: 4.6.0
+      seleniumLogs: false
+      telemetryLogs: false
+    capabilities:
+      browserName: Firefox
+      browserVersion: 108
+  - type: saucelabs
+    use: false
+    options:
+      build: Test
+      name: Test
+    capabilities:
+      platformName: Windows 10
+      browserName: Chrome
+      browserVersion: latest
+  - type: lambdatest
+    use: false
+    options:
+      platformName: Windows 10
+      username: username
+      accessKey: accessKey
+      project: Test
+      build: Test
+      visual: false
+      video: false
+      network: false
+      tunnel: false
+      console: info
+      selenium_version: 4.6.0
+      w3c: true
+    capabilities:
+      browserName: Firefox
+      browserVersion: 102.0
+

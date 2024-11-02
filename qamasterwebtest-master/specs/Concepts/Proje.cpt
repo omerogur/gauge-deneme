@@ -1,0 +1,171 @@
+
+# Projelerin listelendiği kontrol edilir.
+* "homePage_projeList" li element var mı?
+
+# Seçilen <text> isimli projeye tıklanır.
+* Title'ı <text> olan proje var mı?
+* Title'ı <text> olan projeye tıkla
+
+# Seçilen projenin test suit ekranına gidildiği kontrol edilir.
+* "homePage_projeTestSuit" li element var mı?
+
+# Ana sayfadaki Add butonunun üzerine gelinir.
+* "homePage_addBtn" li elementin üzerine gel
+
+# New Project butonuna tıklanır.
+* "homePage_newProjectBtn" li elemente tıkla
+
+# New Project sayfası kontrol edilir.
+* "newProject_createNewProject" li element var mı?
+
+# Project Name kısmına <text> yazılır.
+* "newProject_projectNameInputBox" li elemente <text> değerini yaz
+
+# Project Type kısmına tıklanır ve <text> seçeneği seçilir.
+* "newProject_projectTypeInputBox" li element var mı?
+* "newProject_projectTypeInputBox" li elemente tıkla
+* Project type olarak <text> seçilir.
+
+# Test Automation Framework Type kısmına tıklanır ve <text> seçeneği seçilir.
+* "newProject_frameworkTypeInputBox" li element var mı?
+* "newProject_frameworkTypeInputBox" li elemente tıkla
+* Framework type olarak <text> seçilir.
+
+# Source Control Management Settings tabına geçilir.
+* "newProject_arrowBtn1" li elemente tıkla
+
+# Preferenced Repository kısmına tıklanır ve <text> seçeneği seçilir.
+* "newProject_preferencedRepositoryInputBox" li element var mı?
+* "newProject_preferencedRepositoryInputBox" li elemente tıkla
+* Preferenced repository olarak <text> seçilir.
+
+# Repository Path kısmına <text> yazılır.
+* "newProject_repositoryPathInputBox" li element var mı?
+* "newProject_repositoryPathInputBox" li elemente <text> değerini yaz
+
+# Scm Project Branch kısmına tıklanır ve <text> seçeneği seçilir.
+* "newProject_scmProjectBranchInputBox" li element var mı?
+* "newProject_scmProjectBranchInputBox" li elemente tıkla
+* Scm Project Branch olarak <text> seçilir.
+
+# Jenkins Settings tabına geçilir.
+* "newProject_arrowBtn2" li elemente tıkla
+
+# Preferenced Jenkins kısmına tıklanır ve <text> seçeneği seçilir.
+* "newProject_preferencedJenkinsInputBox" li element var mı?
+* "newProject_preferencedJenkinsInputBox" li elemente tıkla
+* Preferenced Jenkins olarak <text> seçilir.
+
+# Jenkins Project Name kısmına tıklanır ve <text> seçeneği seçilir.
+* "newProject_jenkinsProjectNameInputBox" li element var mı?
+* "newProject_jenkinsProjectNameInputBox" li elemente tıkla
+* Jenkins Project Name olarak <text> seçilir.
+
+# Klov Settings tabına geçilir.
+* "newProject_arrowBtn3" li elemente tıkla
+
+# Preferenced Klov kısmına tıklanır ve <text> seçeneği seçilir.
+* "newProject_preferencedKlovInputBox" li element var mı?
+* "newProject_preferencedKlovInputBox" li elemente tıkla
+* Preferenced Klov olarak <text> seçilir.
+
+# Klov Project kısmına tıklanır ve <text> seçeneği seçilir.
+* "newProject_klovProjectNameInputBox" li element var mı?
+* "newProject_klovProjectNameInputBox" li elemente tıkla
+* Klov Project Name olarak <text> seçilir.
+
+# Create Project butonuna tıklanır.
+* "newProject_createProjectBtn" li elemente tıkla
+
+# Ana sayfaya gidilir.
+* "https://uat.qamaster.co/QA" urle git
+
+# Son oluşturulan proje silinir.
+* "homePage_lastProjectBtn" li element var mı?
+* "homePage_lastProjectBtn" li elemente tıkla
+* "homePage_deleteBtn" li element var mı?
+* "homePage_deleteBtn" li elemente tıkla
+* "homePage_confirmBtn" li elemente tıkla
+
+# Proje barında yer alan üç nokta butonuna tıklanır.
+* "homePage_lastProjectBtn" li element var mı?
+* "homePage_lastProjectBtn" li elemente tıkla
+
+# Edit fonksiyonu seçilir.
+* "homePage_editBtn" li element var mı?
+* "homePage_editBtn" li elemente tıkla
+
+# Açılan Project Update pop-up'ında yer alan name kısmına <text> yazılır ve update edilir.
+* "projectUpdatePage_nameInputBox" li element var mı?
+* "projectUpdatePage_nameInputBox" li elemente tıkla
+* "projectUpdatePage_nameInputBox" li elementi temizle
+* "projectUpdatePage_nameInputBox" li elemente <text> değerini yaz
+* "projectUpdatePage_updateBtn" li elemente tıkla
+
+# Add people butonuna tıklanır.
+* "newProject_addPeopleBtn" li element var mı?
+* "newProject_addPeopleBtn" li elemente tıkla
+
+# 'Select Your Project Icon' butonuna tıklanır.
+* "newProject_selectProjectIconBtn" li element var mı?
+* "newProject_selectProjectIconBtn" li elemente tıkla
+
+# Bir image seçilir.
+* "selectProjectIcon_IconSelection" li elementlerden random bir değere tıkla
+* "2" sn bekle
+* "selectProjectIcon_saveBtn" li elemente tıkla
+
+# Proje oluşturma adımları gerçekleştirilir.
+* Project Name kısmına "PROJECT101" yazılır.
+* Project Type kısmına tıklanır ve "WEB" seçeneği seçilir.
+* Test Automation Framework Type kısmına tıklanır ve "GAUGE" seçeneği seçilir.
+* Source Control Management Settings tabına geçilir.
+* Preferenced Repository kısmına tıklanır ve "Virgosol1" seçeneği seçilir.
+* Repository Path kısmına "/automation/web/qamaster-web-demo " yazılır.
+* "2" sn bekle
+* Scm Project Branch kısmına tıklanır ve "master" seçeneği seçilir.
+* Jenkins Settings tabına geçilir.
+* Preferenced Jenkins kısmına tıklanır ve "jenkins-virgosol" seçeneği seçilir.
+* Jenkins Project Name kısmına tıklanır ve "Automation/QaMaster-test" seçeneği seçilir.
+* Klov Settings tabına geçilir.
+* Preferenced Klov kısmına tıklanır ve "klov-virgosol" seçeneği seçilir.
+* Klov Project kısmına tıklanır ve "QAMaster Demo" seçeneği seçilir.
+
+# 'Select Sorting Type' butonuna tıklanır.
+* "homePage_selectSortingTypeBtn" li element var mı?
+* "homePage_selectSortingTypeBtn" li elemente tıkla
+
+# 'Project Name (A-Z)' seçilir.
+* "homePage_projectName(A-Z)Btn" li element var mı?
+* "homePage_projectName(A-Z)Btn" li elemente tıkla
+
+# 'Project Name (Z-A)' seçilir.
+* "homePage_projectName(Z-A)Btn" li element var mı?
+* "homePage_projectName(Z-A)Btn" li elemente tıkla
+
+# 'Created Date (New to Old)' seçilir.
+* "homePage_createdDateBtn1" li element var mı?
+* "homePage_createdDateBtn1" li elemente tıkla
+
+# 'Created Date (Old to New)' seçilir.
+* "homePage_createdDateBtn2" li element var mı?
+* "homePage_createdDateBtn2" li elemente tıkla
+
+# 'Last Run (New to Old)' seçilir.
+* "homePage_lastRunBtn1" li element var mı?
+* "homePage_lastRunBtn1" li elemente tıkla
+
+# 'Last Run (Old to New)' seçilir.
+* "homePage_lastRunBtn2" li element var mı?
+* "homePage_lastRunBtn2" li elemente tıkla
+
+
+# Title'ı <text> olan proje silinir.
+* Title'ı <text> olan proje var mı?
+* Title'ı <text> olan projenin seçenekler butonuna tıkla
+* "homePage_deleteBtn" li elemente tıkla
+* "homePage_confirmBtn" li elemente tıkla
+
+
+# Title'ı <text> olan projenin change icon butonuna tıkla.
+* Title'ı "text" olan proje var mı?

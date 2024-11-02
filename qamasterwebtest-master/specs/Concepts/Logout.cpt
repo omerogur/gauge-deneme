@@ -1,0 +1,10 @@
+
+# Ana sayfadaki logout butonuna tıklanır.
+* "homePage_logoutBtn" li elemente tıkla
+
+# Açılan pop-up'daki logout butonuna tıklanır.
+* "homePage_popupLogoutBtn" li elemente tıkla
+
+# Logout olunur.
+* "homePage_logoutBtn" li elemente tıkla
+* "homePage_popupLogoutBtn" li elemente tıkla

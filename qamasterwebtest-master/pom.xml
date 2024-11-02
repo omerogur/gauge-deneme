@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.vrgsl</groupId>
+  <artifactId>virgosol-web</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>Virgosol Web Test Automation</name>
+  <url>https://virgosol.com/</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.version>3.6.0</maven.compiler.version>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <gauge.plugin.version>1.5.0</gauge.plugin.version>
+    <virgosol.qamaster.version>1.0.1</virgosol.qamaster.version>
+    <virgosol.qa.version>2.0.54.1</virgosol.qa.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.vrgsl.qa</groupId>
+      <artifactId>web-gauge</artifactId>
+      <version>${virgosol.qa.version}</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven.compiler.version}</version>
+        <configuration>
+          <compilerVersion>${maven.compiler.source}</compilerVersion>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>com.thoughtworks.gauge.maven</groupId>
+        <artifactId>gauge-maven-plugin</artifactId>
+        <version>${gauge.plugin.version}</version>
+      </plugin>
+      <plugin>
+        <groupId>com.virgosol</groupId>
+        <artifactId>qamaster-maven-plugin</artifactId>
+        <version>${virgosol.qamaster.version}</version>
+        <configuration>
+          <host>http://localhost:7911</host>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

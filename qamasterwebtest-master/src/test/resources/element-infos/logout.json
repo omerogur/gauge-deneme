@@ -1,0 +1,12 @@
+[
+  {
+    "key": "homePage_logoutBtn",
+    "value": ".btn-sm",
+    "type": "css"
+  },
+  {
+    "key": "homePage_popupLogoutBtn",
+    "value": "//span[.='Log out']",
+    "type": "xpath"
+  }
+]

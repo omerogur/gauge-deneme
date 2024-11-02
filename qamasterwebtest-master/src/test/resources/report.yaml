@@ -1,0 +1,34 @@
+---
+reportDirectory: target/Virgosol_Report_%rp_%date
+reportFileName: slnarchReport_%rp_%date
+disableReport: true
+sendEmail: false
+recordVideoFail: false
+recordVideoPass: false
+takeScreenShotFail: true
+takeScreenShotPass: true
+beforeDeleteEachTestResult: true
+afterDeleteEachTestResult: false
+deleteZipEachTestResult: true
+appendExistingReport: true
+host: smtp.gmail.com
+port: 465
+auth: true
+username: reporter@virgosol.com
+password: ejwnvsbfugwjkrqb
+mailType: SSL
+from: reporter@virgosol.com
+to: aybuke.harmanci@virgosol.com
+uploadDrive: false
+driveShareTo:
+addAttachment: false
+subject: Web Automation ${date} ${time}
+message: html
+useKlov: false
+klovProject: QaMaster Web Automation
+klovMongoUri: mongodb://vrgadmin:vrgmng21**@localhost:21325
+klovHost: http://localhost:8092
+useQAMaster: false
+qaMasterUrl: http://localhost:7911
+qaMasterUser: klov
+qaMasterPass: vrg_klov

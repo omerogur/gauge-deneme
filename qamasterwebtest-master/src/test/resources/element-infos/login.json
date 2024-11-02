@@ -1,0 +1,32 @@
+[
+  {
+    "key": "loginPage_emailInput",
+    "value": "//input[@name='email']",
+    "type": "xpath"
+  },
+  {
+    "key": "loginPage_continueBtn",
+    "value": "//button[@class='loginBtnChild btn btn-secondary']",
+    "type": "xpath"
+  },
+  {
+    "key": "loginPage_passwordInput",
+    "value": "//input[@name='password']",
+    "type": "xpath"
+  },
+  {
+    "key": "homePage_projectListTxt",
+    "value": "//*[text()='Project List']",
+    "type": "xpath"
+  },
+  {
+    "key": "homePage_passwordVisibilityBtn",
+    "value": ".m-2",
+    "type": "css"
+  },
+  {
+    "key": "loginPage_incorrectWarningTxt",
+    "value": "//span[.='Incorrect username or password']",
+    "type": "xpath"
+  }
+]
