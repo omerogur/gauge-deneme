@@ -38,7 +38,7 @@ public class StepImpl {
         storeHelper = StoreHelper.INSTANCE;
     }
 
-    @Step({"Project type olarak <text> seçilir.",
+    @Step({"Project type olarak <text> seçilirr.",
             "Choose <text> as project type"})
     public void chooseProjectType(String text) {
         try{
