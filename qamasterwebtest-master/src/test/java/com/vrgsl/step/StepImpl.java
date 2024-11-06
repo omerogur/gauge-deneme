@@ -12,23 +12,23 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-*qweqweqweqe
+
 import javax.inject.Inject;
 import java.security.SecureRandom;
 import java.util.List;
-asdqwef
+
 public class StepImpl {
-xxxxxxxxxxxxxxxxxx
-    private final Logger logger = LoggerFactory.getLogger(StepImpl.class);zxcasdasdasd
+
+    private final Logger logger = LoggerFactory.getLogger(StepImpl.class);
 
     @Inject
     Element element;
-*asdqwe12312312312
+
     @Inject
     WebDriver driver;
     @Inject
     WaitingAction waitingAction;
-*omerrrrrrr222222
+
     ElementHelper elementHelper;
     StoreHelper storeHelper;
 
