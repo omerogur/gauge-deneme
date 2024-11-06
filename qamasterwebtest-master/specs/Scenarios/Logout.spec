@@ -15,3 +15,4 @@ tags: Regresyon, Logout
 * Login url'i kontrol edilir.
 * Geri butonuna tıklanır.
 * Login url'i kontrol edilir.
+*'Created Date (Old to New)' seçilir.qweqweqweqwe
