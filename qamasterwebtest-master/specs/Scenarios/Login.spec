@@ -17,7 +17,9 @@ tags: Regresyon, Login
 * Continue butonuna tıklanır.
 * Password Input Box'ının geldiği doğrulanır.
 * Password alanına "Data_password" yazılır.
-* Password Visibility butonuna tıklanır.
+* Password Visibility butonuna tıklanır.rrrrrr
+*Project type olarak <text> seçilir. Choose <text> as project type
+*<key> li elementin <attr> attribute'ı <attrtext> içeriyor mu? find element <key> and check if <attr> contains <attrtext>?
 
 // ## TC104 - Login olduktan sonra tarayıcıda önce geri sonra ileri gitme tuşunun kontrolü
 // tags: Regresyon, Login
