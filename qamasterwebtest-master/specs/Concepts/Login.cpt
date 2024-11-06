@@ -7,7 +7,7 @@
 
 # Password alanına <text> yazılır.
 * "loginPage_passwordInput" li elemente <text> değerini yaz
-
+asd
 # Login olunduğu görülür.
 * "homePage_projectListTxt" li element var mı?
 
