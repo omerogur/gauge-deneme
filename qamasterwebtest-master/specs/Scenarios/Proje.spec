@@ -18,9 +18,9 @@ tags: Regresyon, Proje
 * Ana sayfadaki Add butonunun üzerine gelinir.
 * New Project butonuna tıklanır.
 * New Project sayfası kontrol edilir.
-
+*'Created Date (Old to New)' seçilir.xxxxxx
 ## TC304 - Yeni proje eklenmesinin kontrolü
-tags: Regresyon, Proje
+tags: Regresyon, Projeomerrrrrrrrr
 * Login olunur.
 * Ana sayfadaki Add butonunun üzerine gelinir.
 * New Project butonuna tıklanır.
