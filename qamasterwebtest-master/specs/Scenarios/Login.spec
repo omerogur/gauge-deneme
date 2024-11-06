@@ -9,7 +9,7 @@ tags: Regresyon, Login
 * Password alanına "Data_password" yazılır.
 * Continue butonuna tıklanır.
 * Ana sayfa url'i kontrol edilir.
-xxxxxxxxxxx
+*<key> li elementlerden random bir değere tıkla find elements <key> click on one random value
 ## TC103 - Şifrenin yazımını görmek için göz butonunun kontrolüq1231231231
 tags: Regresyon, Login
 * Login url'i kontrol edilir.
