@@ -12,11 +12,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+*qweqweqweqe
 import javax.inject.Inject;
 import java.security.SecureRandom;
 import java.util.List;
-
+asdqwe
 public class StepImpl {
 
     private final Logger logger = LoggerFactory.getLogger(StepImpl.class);
