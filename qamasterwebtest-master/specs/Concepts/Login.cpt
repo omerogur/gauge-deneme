@@ -4,6 +4,8 @@
 
 # Continue butonuna tıklanır.
 * "loginPage_continueBtn" li elemente tıkla
+# Deneme Virgosol
+*Project Type kısmına tıklanır ve <text> seçeneği seçilir.
 
 # Password alanına <text> yazılır.
 * "loginPage_passwordInput" li elemente <text> değerini yaz
