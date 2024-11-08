@@ -1,7 +1,7 @@
 
 # Email alanına <text> yazılır.
 * "loginPage_emailInput" li elemente <text> değerini yaz
-
+s
 # Continue butonuna tıklanır.
 * "loginPage_continueBtn" li elemente tıkla
 # Deneme Virgosol
