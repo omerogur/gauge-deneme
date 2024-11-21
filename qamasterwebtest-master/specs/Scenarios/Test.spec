@@ -1,5 +1,5 @@
 # Test Scenarios
-
+e
 ## TC401 - Yeni test suit oluşturma pop-up'ının kontrolü
 tags: Regresyon, Test
 * Login olunur.

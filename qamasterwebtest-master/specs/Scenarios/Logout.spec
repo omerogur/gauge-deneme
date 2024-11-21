@@ -1,5 +1,5 @@
 # Logout Scenarios
-
+b
 ## TC201 - Başarılı logout kontrolü
 tags: Regresyon, Logout
 * Login olunur.
