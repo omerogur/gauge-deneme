@@ -1,6 +1,6 @@
 {
   "Language": "java",
   "Plugins": [
-    "xml-report"
+    "xml-rasdeport"
   ]
 }
