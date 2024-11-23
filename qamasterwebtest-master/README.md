@@ -1,6 +1,5 @@
 # Web Automation Gauge Default
 
-omecrrrrrr.c
 Default Web framework'üdür. Yeni projelere adaptasyon için aşağıdaki adımları takip ederek kurulum yapabilirsiniz.
 11111111111111
 asdqweqwerqwe12312312123123
